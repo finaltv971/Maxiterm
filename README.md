@@ -19,7 +19,8 @@ bloquant) — jamais sur le verrouillage de fonctions. Voir
 - s'authentifier par **mot de passe** ou **clé Ed25519/ECDSA** (OpenSSH, y
   compris **chiffrée par phrase de passe** — bcrypt-pbkdf + AES-CTR/CBC, 100% Apple) ;
 - ouvrir des **sessions SSH interactives** (PTY + shell) en **onglets multiples**,
-  avec **barre de touches spéciales** (Esc, Ctrl, flèches…) et **thèmes** ;
+  avec **barre de touches spéciales** (Esc, Ctrl, flèches…), **thèmes**,
+  **MultiExec** (diffusion à tous les onglets) et **snippets** synchronisés ;
 - parcourir les fichiers distants en **SFTP** (lister, transférer **en streaming**
   avec progression, `chmod`, créer/supprimer un dossier, renommer) — implémentation
   **maison** du protocole ;
@@ -28,6 +29,7 @@ bloquant) — jamais sur le verrouillage de fonctions. Voir
 - **synchroniser** secrets (trousseau **iCloud**) et profils (**CloudKit**) entre
   appareils — retrouver ses éléments en changeant d'iPhone/iPad ;
 - **consulter les journaux** de chaque session (terminal et SFTP), avec export ;
+- lancer une session depuis un **widget « Connexion rapide »** (profils récents) ;
 - profiter d'une app **localisée** (fr, en, es, it, pt), avec **onboarding**,
   **icône**, manifeste de confidentialité et **tip jar** facultatif (sans déblocage) ;
 - le tout sur une couche SSH/SFTP **100% Apple** (`swift-nio-ssh`), auditable.

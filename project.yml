@@ -11,7 +11,7 @@ options:
 
 settings:
   base:
-    SWIFT_VERSION: "5.0"
+    SWIFT_VERSION: "5.9"
     MARKETING_VERSION: "0.1.0"
     CURRENT_PROJECT_VERSION: "1"
     CODE_SIGN_STYLE: Automatic
@@ -45,6 +45,9 @@ targets:
       path: App/Info.plist
       properties:
         CFBundleDisplayName: MaxiTerm
+        CFBundleURLTypes:
+          - CFBundleURLName: fr.digistream.maxiterm
+            CFBundleURLSchemes: [maxiterm]
         # L'app embarque du chiffrement SSH (non exempt par défaut). On revendique
         # l'exemption « code source publiquement disponible » (EAR §740.13(e), TSU)
         # et l'usage de protocoles standard. Voir README §Conformité export.
@@ -65,6 +68,25 @@ targets:
       - package: SFTPKit
       - package: SSHKit
       - package: TerminalUI
+      - target: MaxitermWidgetExtension
+
+  MaxitermWidgetExtension:
+    type: app-extension
+    platform: iOS
+    sources:
+      - Widget
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: fr.digistream.maxiterm.widget
+        CODE_SIGN_ENTITLEMENTS: Widget/MaxitermWidget.entitlements
+    info:
+      path: Widget/Info.plist
+      properties:
+        CFBundleDisplayName: MaxiTerm
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    dependencies:
+      - package: Core
 
   MaxitermTests:
     type: bundle.unit-test

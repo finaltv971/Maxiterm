@@ -33,19 +33,49 @@ public final class ProfileStore: ObservableObject {
         let cloudConfiguration = ModelConfiguration(
             cloudKitDatabase: .private(cloudKitContainerID)
         )
-        if let cloud = try? ModelContainer(for: SSHProfile.self, configurations: cloudConfiguration) {
+        if let cloud = try? ModelContainer(
+            for: SSHProfile.self, Snippet.self, configurations: cloudConfiguration
+        ) {
             return ProfileStore(container: cloud)
         }
-        return ProfileStore(container: try ModelContainer(for: SSHProfile.self))
+        return ProfileStore(container: try ModelContainer(for: SSHProfile.self, Snippet.self))
     }
 
     /// Store en mémoire (tests / prévisualisations).
     public static func makeInMemory() throws -> ProfileStore {
         let configuration = ModelConfiguration(isStoredInMemoryOnly: true)
-        return ProfileStore(container: try ModelContainer(for: SSHProfile.self, configurations: configuration))
+        return ProfileStore(
+            container: try ModelContainer(for: SSHProfile.self, Snippet.self, configurations: configuration)
+        )
     }
 
     private var context: ModelContext { container.mainContext }
+
+    // MARK: - Snippets
+
+    public func allSnippets() throws -> [Snippet] {
+        let descriptor = FetchDescriptor<Snippet>(sortBy: [SortDescriptor(\.title)])
+        return try context.fetch(descriptor)
+    }
+
+    @discardableResult
+    public func createSnippet(title: String, command: String) throws -> Snippet {
+        let snippet = Snippet(title: title, command: command)
+        context.insert(snippet)
+        try context.save()
+        return snippet
+    }
+
+    public func updateSnippet(_ snippet: Snippet, title: String, command: String) throws {
+        snippet.title = title
+        snippet.command = command
+        try context.save()
+    }
+
+    public func deleteSnippet(_ snippet: Snippet) throws {
+        context.delete(snippet)
+        try context.save()
+    }
 
     public func allProfiles() throws -> [SSHProfile] {
         let descriptor = FetchDescriptor<SSHProfile>(
