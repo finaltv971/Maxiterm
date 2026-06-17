@@ -2,17 +2,23 @@
 //  MaxitermTests.swift
 //  MaxitermTests
 //
-//  Created by Anthony BAUCAL on 17/06/2026.
-//
 
+import Core
 import Testing
 
 struct MaxitermTests {
-
-    @Test func example() async throws {
-        // Write your test here and use APIs like `#expect(...)` to check expected conditions.
-        // Swift Testing Documentation
-        // https://developer.apple.com/documentation/testing
+    @Test func validHostPassesValidation() {
+        let host = SSHHost(label: "Demo", hostname: "example.com", username: "root")
+        #expect(host.isValid)
     }
 
+    @Test func invalidPortFailsValidation() {
+        let host = SSHHost(label: "Demo", hostname: "example.com", port: 0, username: "root")
+        #expect(!host.isValid)
+    }
+
+    @Test func credentialNeverLeaksSecretInDescription() {
+        let credential = SSHCredential.password("s3cr3t")
+        #expect(!credential.description.contains("s3cr3t"))
+    }
 }
