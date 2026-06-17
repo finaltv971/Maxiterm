@@ -29,6 +29,7 @@ bloquant) — jamais sur le verrouillage de fonctions. Voir
 - **synchroniser** secrets (trousseau **iCloud**) et profils (**CloudKit**) entre
   appareils — retrouver ses éléments en changeant d'iPhone/iPad ;
 - **consulter les journaux** de chaque session (terminal et SFTP), avec export ;
+- lancer une session depuis un **widget « Connexion rapide »** (profils récents) ;
 - profiter d'une app **localisée** (fr, en, es, it, pt), avec **onboarding**,
   **icône**, manifeste de confidentialité et **tip jar** facultatif (sans déblocage) ;
 - le tout sur une couche SSH/SFTP **100% Apple** (`swift-nio-ssh`), auditable.

@@ -34,6 +34,9 @@ et le projet suit le [Versionnage Sémantique](https://semver.org/lang/fr/).
   (CommonCrypto + swift-crypto). Les constantes Blowfish sont **générées à partir
   de π** (formule de Machin, entiers exacts) plutôt que transcrites — table
   auditable. Phrase de passe stockée au **trousseau iCloud** (synchronizable).
+- **Widget « Connexion rapide »** : extension WidgetKit listant les profils
+  récents (métadonnées non sensibles partagées via App Group) ; toucher un profil
+  ouvre l'app et lance la session via le schéma d'URL `maxiterm://connect/<id>`.
 - **MultiExec** : barre de commande du terminal permettant de diffuser une même
   commande à **tous les onglets** connectés (ou à l'onglet actif).
 - **Snippets** : commandes réutilisables enregistrées et **synchronisées iCloud**

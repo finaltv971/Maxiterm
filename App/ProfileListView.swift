@@ -3,6 +3,7 @@ import Persistence
 import SSHKit
 import SwiftData
 import SwiftUI
+import WidgetKit
 
 /// Écran d'accueil : liste des profils SSH enregistrés, avec connexion directe,
 /// édition et suppression.
@@ -136,7 +137,33 @@ struct ProfileListView: View {
             )) {
                 OnboardingView { hasCompletedOnboarding = true }
             }
+            .onAppear(perform: publishRecentProfiles)
+            .onChange(of: profiles.map(\.id)) { _, _ in publishRecentProfiles() }
+            .onOpenURL(perform: handleDeepLink)
         }
+    }
+
+    /// Publie les métadonnées (non sensibles) des profils récents vers l'App Group
+    /// et rafraîchit le widget « Connexion rapide ».
+    private func publishRecentProfiles() {
+        let shared = profiles.prefix(6).map { profile in
+            WidgetSharedProfile(
+                id: profile.id,
+                label: profile.label.isEmpty ? profile.hostname : profile.label,
+                subtitle: "\(profile.username)@\(profile.hostname):\(profile.port)"
+            )
+        }
+        MaxitermAppGroup.writeRecentProfiles(Array(shared))
+        WidgetCenter.shared.reloadAllTimelines()
+    }
+
+    /// Ouvre une session depuis le widget : `maxiterm://connect/<uuid>`.
+    private func handleDeepLink(_ url: URL) {
+        guard url.scheme == "maxiterm", url.host == "connect",
+              let uuid = UUID(uuidString: url.lastPathComponent),
+              let profile = profiles.first(where: { $0.id == uuid })
+        else { return }
+        connect(profile)
     }
 
     private func connect(_ profile: SSHProfile) {
