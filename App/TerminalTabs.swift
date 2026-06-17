@@ -64,6 +64,21 @@ final class TerminalTabsModel: ObservableObject {
         }
     }
 
+    /// **MultiExec** : diffuse une commande (suivie d'un retour ligne) à **tous**
+    /// les onglets connectés.
+    func broadcast(_ command: String) {
+        let line = command.hasSuffix("\n") ? command : command + "\n"
+        for tab in tabs {
+            tab.viewModel.sendText(line)
+        }
+    }
+
+    /// Envoie une commande à l'onglet **actif** uniquement (snippets).
+    func sendToSelected(_ command: String) {
+        let line = command.hasSuffix("\n") ? command : command + "\n"
+        selectedTab?.viewModel.sendText(line)
+    }
+
     /// Ferme tous les onglets (à la fermeture du conteneur).
     func closeAll() {
         for tab in tabs { tab.viewModel.stop() }

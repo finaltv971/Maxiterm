@@ -15,6 +15,7 @@ struct TerminalTabsView: View {
     @EnvironmentObject private var logStore: SessionLogStore
     @AppStorage("terminalThemeID") private var themeID = TerminalTheme.defaultDark.id
     @State private var showPicker = false
+    @State private var showCommandBar = false
 
     var body: some View {
         NavigationStack {
@@ -26,6 +27,11 @@ struct TerminalTabsView: View {
             .navigationTitle(model.selectedTab?.title ?? "Terminal")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar { toolbarContent }
+            .safeAreaInset(edge: .bottom) {
+                if showCommandBar {
+                    CommandBar(model: model)
+                }
+            }
             .sheet(isPresented: $showPicker) {
                 TerminalProfilePicker { host, credential, jump in
                     showPicker = false
@@ -78,6 +84,10 @@ struct TerminalTabsView: View {
             if let tab = model.selectedTab {
                 TabStatusBadge(viewModel: tab.viewModel)
             }
+            Button { showCommandBar.toggle() } label: {
+                Image(systemName: showCommandBar ? "keyboard.chevron.compact.down" : "command")
+            }
+            .accessibilityLabel("Barre de commande (MultiExec / snippets)")
             themeMenu
             Button { showPicker = true } label: {
                 Image(systemName: "plus")

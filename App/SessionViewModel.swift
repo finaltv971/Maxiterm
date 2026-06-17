@@ -96,6 +96,13 @@ final class SessionViewModel: ObservableObject {
         }
     }
 
+    /// Envoie du texte brut au shell distant (utilisé par MultiExec et les
+    /// snippets). Sans effet si la session n'est pas connectée.
+    func sendText(_ text: String) {
+        guard status == .connected else { return }
+        Task { await session.send(Data(text.utf8)) }
+    }
+
     /// Ferme la session (à appeler quand l'écran disparaît).
     func stop() {
         lifecycleTask?.cancel()
