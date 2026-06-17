@@ -19,7 +19,8 @@ bloquant) — jamais sur le verrouillage de fonctions. Voir
 - s'authentifier par **mot de passe** ou **clé Ed25519/ECDSA** (OpenSSH, y
   compris **chiffrée par phrase de passe** — bcrypt-pbkdf + AES-CTR/CBC, 100% Apple) ;
 - ouvrir des **sessions SSH interactives** (PTY + shell) en **onglets multiples**,
-  avec **barre de touches spéciales** (Esc, Ctrl, flèches…) et **thèmes** ;
+  avec **barre de touches spéciales** (Esc, Ctrl, flèches…), **thèmes**,
+  **MultiExec** (diffusion à tous les onglets) et **snippets** synchronisés ;
 - parcourir les fichiers distants en **SFTP** (lister, transférer **en streaming**
   avec progression, `chmod`, créer/supprimer un dossier, renommer) — implémentation
   **maison** du protocole ;

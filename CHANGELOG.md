@@ -34,6 +34,10 @@ et le projet suit le [Versionnage Sémantique](https://semver.org/lang/fr/).
   (CommonCrypto + swift-crypto). Les constantes Blowfish sont **générées à partir
   de π** (formule de Machin, entiers exacts) plutôt que transcrites — table
   auditable. Phrase de passe stockée au **trousseau iCloud** (synchronizable).
+- **MultiExec** : barre de commande du terminal permettant de diffuser une même
+  commande à **tous les onglets** connectés (ou à l'onglet actif).
+- **Snippets** : commandes réutilisables enregistrées et **synchronisées iCloud**
+  (CloudKit), insérables dans le terminal — données déclaratives (conforme 2.5.2).
 - **Terminal multi-onglets** : plusieurs sessions SSH simultanées, chacune
   maintenue active en arrière-plan ; barre d'onglets avec état de connexion,
   ajout/fermeture, ouverture d'une nouvelle session par sélecteur de profil.

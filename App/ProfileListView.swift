@@ -23,6 +23,7 @@ struct ProfileListView: View {
     @State private var sftpTarget: SFTPTarget?
     @State private var tunnelTarget: SFTPTarget?
     @State private var showLogs = false
+    @State private var showSnippets = false
     @State private var showTipJar = false
     @State private var errorMessage: String?
     @AppStorage("hasCompletedOnboarding") private var hasCompletedOnboarding = false
@@ -67,11 +68,15 @@ struct ProfileListView: View {
             }
             .navigationTitle("MaxiTerm")
             .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
+                ToolbarItemGroup(placement: .topBarLeading) {
                     Button { showLogs = true } label: {
                         Image(systemName: "doc.text.magnifyingglass")
                     }
                     .accessibilityLabel("Journaux")
+                    Button { showSnippets = true } label: {
+                        Image(systemName: "text.badge.plus")
+                    }
+                    .accessibilityLabel("Snippets")
                 }
                 ToolbarItemGroup(placement: .topBarTrailing) {
                     Button { showTipJar = true } label: {
@@ -86,6 +91,9 @@ struct ProfileListView: View {
             }
             .navigationDestination(isPresented: $showLogs) {
                 SessionLogsView()
+            }
+            .navigationDestination(isPresented: $showSnippets) {
+                SnippetsManagerView()
             }
             .sheet(item: $editorMode) { mode in
                 ProfileEditorView(mode: mode)
