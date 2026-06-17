@@ -1,0 +1,49 @@
+# Configuration SwiftLint pour MaxiTerm.
+included:
+  - App
+  - Packages/Core/Sources
+  - Packages/SSHKit/Sources
+  - Packages/TerminalUI/Sources
+  - MaxitermTests
+
+excluded:
+  - .build
+  - DerivedData
+  - "**/.build"
+  - Packages/**/.build
+
+disabled_rules:
+  # Les TODO documentés servent de marqueurs de roadmap explicites et assumés.
+  - todo
+  # SwiftFormat (--commas always) ajoute les virgules finales en multiligne ;
+  # on désactive la règle SwiftLint en conflit pour rester cohérent.
+  - trailing_comma
+
+opt_in_rules:
+  - empty_count
+  - closure_spacing
+  - explicit_init
+  - first_where
+  - sorted_imports
+  - redundant_nil_coalescing
+  - toggle_bool
+
+line_length:
+  warning: 120
+  error: 160
+  ignores_comments: true
+
+identifier_name:
+  min_length: 2
+  excluded: [id, vm, to]
+
+type_name:
+  min_length: 3
+
+function_body_length:
+  warning: 60
+  error: 100
+
+file_length:
+  warning: 400
+  error: 800

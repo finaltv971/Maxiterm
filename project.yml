@@ -1,0 +1,93 @@
+name: Maxiterm
+
+options:
+  bundleIdPrefix: fr.digistream
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+  generateEmptyDirectories: true
+  developmentLanguage: fr
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: "" # à renseigner localement pour un build sur appareil
+
+packages:
+  Core:
+    path: Packages/Core
+  Persistence:
+    path: Packages/Persistence
+  SFTPKit:
+    path: Packages/SFTPKit
+  SSHKit:
+    path: Packages/SSHKit
+  TerminalUI:
+    path: Packages/TerminalUI
+
+targets:
+  Maxiterm:
+    type: application
+    platform: iOS
+    sources:
+      - App
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: fr.digistream.maxiterm
+        TARGETED_DEVICE_FAMILY: "1,2" # iPhone + iPad
+        ENABLE_PREVIEWS: YES
+        CODE_SIGN_ENTITLEMENTS: App/Maxiterm.entitlements
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: MaxiTerm
+        # L'app embarque du chiffrement SSH (non exempt par défaut). On revendique
+        # l'exemption « code source publiquement disponible » (EAR §740.13(e), TSU)
+        # et l'usage de protocoles standard. Voir README §Conformité export.
+        ITSAppUsesNonExemptEncryption: true
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    dependencies:
+      - package: Core
+      - package: Persistence
+      - package: SFTPKit
+      - package: SSHKit
+      - package: TerminalUI
+
+  MaxitermTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - MaxitermTests
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: fr.digistream.maxiterm.tests
+    dependencies:
+      - target: Maxiterm
+      - package: Core
+      - package: Persistence
+
+schemes:
+  Maxiterm:
+    build:
+      targets:
+        Maxiterm: all
+    test:
+      targets:
+        - MaxitermTests
+    run:
+      config: Debug
+      storeKitConfiguration: Maxiterm.storekit

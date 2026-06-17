@@ -1,0 +1,41 @@
+# Fastfile — squelette de déploiement MaxiTerm.
+#
+# ⚠️ Aucun secret ne doit être committé. La signature (certificats/profils) sera
+# gérée via `match` (dépôt de certificats chiffré) et des secrets GitHub Actions,
+# ou en build TestFlight manuel au début. Ces lanes sont des points de départ
+# documentés, pas encore câblés à un compte Apple Developer.
+
+default_platform(:ios)
+
+XCODEPROJ = "Maxiterm.xcodeproj"
+SCHEME = "Maxiterm"
+
+platform :ios do
+  desc "Régénère le projet, lint et lance les tests"
+  lane :test do
+    sh("cd .. && xcodegen generate")
+    scan(
+      project: XCODEPROJ,
+      scheme: SCHEME,
+      destination: "platform=iOS Simulator,name=iPhone 17 Pro"
+    )
+  end
+
+  desc "Build d'archive (signature à configurer via match)"
+  lane :build do
+    sh("cd .. && xcodegen generate")
+    # match(type: "appstore")            # à activer une fois le dépôt de certs prêt
+    gym(
+      project: XCODEPROJ,
+      scheme: SCHEME,
+      export_method: "app-store"
+    )
+  end
+
+  desc "Pousser un build vers TestFlight (à activer plus tard)"
+  lane :beta do
+    build
+    # pilot(skip_waiting_for_build_processing: true)
+    UI.message("Lane 'beta' : câbler `pilot`/App Store Connect API avant usage.")
+  end
+end
