@@ -38,8 +38,19 @@ public enum MaxitermAppGroup {
         return profiles
     }
 
-    /// URL d'ouverture d'une connexion vers un profil depuis le widget.
+    /// Schéma d'URL d'ouverture de l'app depuis le widget.
+    public static let urlScheme = "maxiterm"
+    public static let connectHost = "connect"
+
+    /// URL d'ouverture d'une connexion vers un profil depuis le widget,
+    /// construite via `URLComponents` (pas de parsing de chaîne, pas de
+    /// force-unwrap dynamique).
     public static func connectURL(profileID: UUID) -> URL {
-        URL(string: "maxiterm://connect/\(profileID.uuidString)")!
+        var components = URLComponents()
+        components.scheme = urlScheme
+        components.host = connectHost
+        components.path = "/\(profileID.uuidString)"
+        // Repli défensif : littéral statique, valide par construction.
+        return components.url ?? URL(string: "\(urlScheme)://\(connectHost)")!
     }
 }

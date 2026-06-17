@@ -55,8 +55,12 @@ struct SnippetsManagerView: View {
     }
 
     private func delete(_ offsets: IndexSet) {
-        for index in offsets where snippets.indices.contains(index) {
-            try? store.deleteSnippet(snippets[index])
+        do {
+            for index in offsets where snippets.indices.contains(index) {
+                try store.deleteSnippet(snippets[index])
+            }
+        } catch {
+            errorMessage = error.localizedDescription
         }
     }
 }

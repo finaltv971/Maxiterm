@@ -12,8 +12,8 @@ struct QuickConnectEntry: TimelineEntry {
 /// rechargées par l'app (WidgetCenter) quand les profils changent.
 struct QuickConnectProvider: TimelineProvider {
     private static let sample = [
-        WidgetSharedProfile(id: UUID(), label: "Serveur de prod", subtitle: "root@example.com:22"),
-        WidgetSharedProfile(id: UUID(), label: "Raspberry Pi", subtitle: "pi@192.168.1.20:22"),
+        WidgetSharedProfile(id: UUID(), label: "Exemple", subtitle: "utilisateur@mon-serveur:22"),
+        WidgetSharedProfile(id: UUID(), label: "Mini-PC", subtitle: "admin@mon-nas:22"),
     ]
 
     func placeholder(in context: Context) -> QuickConnectEntry {

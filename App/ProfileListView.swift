@@ -137,7 +137,7 @@ struct ProfileListView: View {
             )) {
                 OnboardingView { hasCompletedOnboarding = true }
             }
-            .onAppear(perform: publishRecentProfiles)
+            .task { publishRecentProfiles() }
             .onChange(of: profiles.map(\.id)) { _, _ in publishRecentProfiles() }
             .onOpenURL(perform: handleDeepLink)
         }
@@ -159,7 +159,7 @@ struct ProfileListView: View {
 
     /// Ouvre une session depuis le widget : `maxiterm://connect/<uuid>`.
     private func handleDeepLink(_ url: URL) {
-        guard url.scheme == "maxiterm", url.host == "connect",
+        guard url.scheme == MaxitermAppGroup.urlScheme, url.host == MaxitermAppGroup.connectHost,
               let uuid = UUID(uuidString: url.lastPathComponent),
               let profile = profiles.first(where: { $0.id == uuid })
         else { return }
