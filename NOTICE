@@ -1,0 +1,33 @@
+MaxiTerm
+Copyright (c) 2026 Anthony BAUCAL (DigiStream)
+
+This product is licensed under the MIT License (see LICENSE).
+
+This product includes software developed by third parties under the
+Apache License, Version 2.0. The following components retain their
+original copyright and NOTICE attributions:
+
+- SwiftNIO (swift-nio)
+  Copyright the SwiftNIO project authors.
+  https://github.com/apple/swift-nio
+
+- SwiftNIO SSH (swift-nio-ssh)
+  Copyright the SwiftNIO project authors.
+  https://github.com/apple/swift-nio-ssh
+
+- Swift Crypto (swift-crypto)
+  Copyright the Swift Crypto project authors.
+  https://github.com/apple/swift-crypto
+
+- swift-asn1, swift-atomics, swift-collections, swift-system,
+  swift-argument-parser
+  Copyright the respective Swift project authors.
+
+A copy of the Apache License, Version 2.0 is available at:
+  https://www.apache.org/licenses/LICENSE-2.0
+
+The following component is licensed under the MIT License:
+
+- SwiftTerm
+  Copyright (c) Miguel de Icaza and contributors.
+  https://github.com/migueldeicaza/SwiftTerm

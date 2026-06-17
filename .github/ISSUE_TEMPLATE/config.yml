@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Faille de sécurité
+    url: https://github.com/digistream/maxiterm/security/advisories/new
+    about: Signalez les vulnérabilités en privé (voir SECURITY.md). N'ouvrez pas d'issue publique.
+  - name: 💬 Questions & discussions
+    url: https://github.com/digistream/maxiterm/discussions
+    about: Pour les questions d'usage et les idées générales.

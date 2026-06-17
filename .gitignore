@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Projet généré par XcodeGen — source de vérité = project.yml.
+# Régénérer avec : xcodegen generate  (ou : make generate)
+Maxiterm.xcodeproj/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Divers
+*.log

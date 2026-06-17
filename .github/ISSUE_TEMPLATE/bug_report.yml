@@ -1,0 +1,39 @@
+name: "🐞 Rapport de bug"
+description: Signaler un problème (hors sécurité — voir SECURITY.md)
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de votre rapport ! ⚠️ Pour une **faille de sécurité**, n'utilisez
+        pas ce formulaire : suivez [SECURITY.md](../blob/main/SECURITY.md).
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Décrivez clairement le problème.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes de reproduction
+      placeholder: |
+        1. Aller à…
+        2. Toucher…
+        3. Observer…
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportement attendu
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environnement
+      placeholder: "iPhone 15 Pro, iOS 18.1, MaxiTerm commit abc1234"
+    validations:
+      required: true
