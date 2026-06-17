@@ -1,0 +1,60 @@
+{
+  "identifier" : "B3A1C0DE-0001-4000-8000-000000000001",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "B3A1C0DE-0001-4000-8000-000000000010",
+      "localizations" : [
+        {
+          "description" : "Offrir un petit café pour soutenir le développement.",
+          "displayName" : "Petit café",
+          "locale" : "fr_FR"
+        }
+      ],
+      "productID" : "fr.digistream.maxiterm.tip.small",
+      "referenceName" : "Tip Small",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "B3A1C0DE-0001-4000-8000-000000000011",
+      "localizations" : [
+        {
+          "description" : "Offrir un grand café pour soutenir le développement.",
+          "displayName" : "Grand café",
+          "locale" : "fr_FR"
+        }
+      ],
+      "productID" : "fr.digistream.maxiterm.tip.medium",
+      "referenceName" : "Tip Medium",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "B3A1C0DE-0001-4000-8000-000000000012",
+      "localizations" : [
+        {
+          "description" : "Offrir un repas pour soutenir le développement.",
+          "displayName" : "Repas",
+          "locale" : "fr_FR"
+        }
+      ],
+      "productID" : "fr.digistream.maxiterm.tip.large",
+      "referenceName" : "Tip Large",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "0000000000",
+    "_developerTeamID" : "0000000000"
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
