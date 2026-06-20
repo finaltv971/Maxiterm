@@ -1,2106 +1,2218 @@
 {
-  "sourceLanguage": "fr",
-  "version": "1.0",
-  "strings": {
-    "Aucun profil": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No profile"
+  "sourceLanguage" : "fr",
+  "strings" : {
+    "%@" : {
+
+    },
+    "%@ — %@" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ — %2$@"
+          }
+        }
+      }
+    },
+    "%@@%@:%@" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@@%2$@:%3$@"
+          }
+        }
+      }
+    },
+    "100% gratuit, sans abonnement" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100% free, no subscription"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sin perfiles"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100% gratis, sin suscripción"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nessun profilo"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100% gratuito, senza abbonamento"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nenhum perfil"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100% grátis, sem subscrição"
           }
         }
       }
     },
-    "Ajoutez un serveur SSH pour commencer.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Add an SSH server to get started."
+    "100% gratuit, sans paywall" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100% free, no paywall"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Añade un servidor SSH para empezar."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100% gratis, sin muro de pago"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aggiungi un server SSH per iniziare."
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100% gratuito, senza paywall"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Adicione um servidor SSH para começar."
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "100% grátis, sem paywall"
           }
         }
       }
     },
-    "Ajouter un profil": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Add a profile"
+    "Ajouter un profil" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a profile"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Añadir un perfil"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir un perfil"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aggiungi un profilo"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi un profilo"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Adicionar um perfil"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar um perfil"
           }
         }
       }
     },
-    "Journaux": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Logs"
+    "Ajoutez un serveur SSH pour commencer." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add an SSH server to get started."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Registros"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añade un servidor SSH para empezar."
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Log"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi un server SSH per iniziare."
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Registos"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicione um servidor SSH para começar."
           }
         }
       }
+    },
+    "Ajoutez-la à `~/.ssh/authorized_keys` du serveur." : {
+
     },
-    "Supprimer": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Delete"
+    "Annuler" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eliminar"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elimina"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annulla"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eliminar"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
           }
         }
       }
     },
-    "Modifier": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Edit"
+    "Appliquer" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apply"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Editar"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplicar"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Modifica"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Applica"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Editar"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplicar"
           }
         }
       }
     },
-    "Fichiers": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Files"
+    "Arrêter" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Archivos"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detener"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "File"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferma"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ficheiros"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parar"
           }
         }
       }
     },
-    "Tunnel": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tunnel"
+    "Aucun journal" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No logs"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Túnel"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin registros"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tunnel"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun log"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Túnel"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sem registos"
           }
         }
       }
     },
-    "Erreur": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Error"
+    "Aucun profil" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No profile"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Error"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sin perfiles"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Errore"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun profilo"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Erro"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhum perfil"
           }
         }
       }
     },
-    "OK": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "OK"
+    "Aucun secret enregistré pour ce profil." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No secret saved for this profile."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "OK"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No hay secreto guardado para este perfil."
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "OK"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun segreto salvato per questo profilo."
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "OK"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhum segredo guardado para este perfil."
           }
         }
       }
     },
-    "Annuler": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cancel"
+    "Aucun snippet" : {
+
+    },
+    "Authentification" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authentication"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cancelar"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autenticación"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Annulla"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autenticazione"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cancelar"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autenticação"
           }
         }
       }
     },
-    "Enregistrer": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Save"
+    "Avec plaisir" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You're welcome"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guardar"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De nada"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Salva"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con piacere"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guardar"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De nada"
           }
         }
       }
     },
-    "Nouveau profil": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New profile"
+    "Bienvenue dans MaxiTerm" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to MaxiTerm"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nuevo perfil"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bienvenido a MaxiTerm"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nuovo profilo"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benvenuto in MaxiTerm"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Novo perfil"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bem-vindo ao MaxiTerm"
           }
         }
       }
     },
-    "Modifier le profil": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Edit profile"
+    "Chargement…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading…"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Editar perfil"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cargando…"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Modifica profilo"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Caricamento…"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Editar perfil"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A carregar…"
           }
         }
       }
     },
-    "Serveur": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Server"
+    "Clé hôte connue (TOFU)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Known host key (TOFU)"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Servidor"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clave de host conocida (TOFU)"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Server"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiave host nota (TOFU)"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Servidor"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chave de anfitrião conhecida (TOFU)"
           }
         }
       }
     },
-    "Authentification": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Authentication"
+    "Clé privée" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Private key"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Autenticación"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clave privada"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Autenticazione"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiave privata"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Autenticação"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chave privada"
           }
         }
       }
     },
-    "Méthode": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Method"
+    "Clé publique à installer sur le serveur" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Public key to install on the server"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Método"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clave pública para instalar en el servidor"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Metodo"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiave pubblica da installare sul server"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Método"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chave pública para instalar no servidor"
           }
         }
       }
     },
-    "Mot de passe": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Password"
+    "Commencer" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get started"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Contraseña"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empezar"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Password"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inizia"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Palavra-passe"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Começar"
           }
         }
       }
     },
-    "Clé privée": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Private key"
+    "Connexion impossible" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection failed"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Clave privada"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo conectar"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Chiave privata"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connessione non riuscita"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Chave privada"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ligação falhou"
           }
         }
       }
     },
-    "Port": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Port"
+    "Connexion SFTP…" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connecting (SFTP)…"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Puerto"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectando (SFTP)…"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Porta"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connessione (SFTP)…"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Porta"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A ligar (SFTP)…"
           }
         }
       }
     },
-    "Utilisateur": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "User"
+    "Connexion…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connecting…"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Usuario"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectando…"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Utente"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connessione…"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Utilizador"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A ligar…"
           }
         }
       }
     },
-    "Libellé (optionnel)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Label (optional)"
+    "Continuer" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Etiqueta (opcional)"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Etichetta (facoltativa)"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continua"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Etiqueta (opcional)"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar"
           }
         }
       }
     },
-    "Hôte ou IP": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Host or IP"
+    "Copier la clé publique" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy public key"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Host o IP"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar clave pública"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Host o IP"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia chiave pubblica"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Anfitrião ou IP"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiar chave pública"
           }
         }
       }
     },
-    "Générer une clé Ed25519": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Generate an Ed25519 key"
+    "Créer" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Generar una clave Ed25519"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crear"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Genera una chiave Ed25519"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crea"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gerar uma chave Ed25519"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Criar"
           }
         }
       }
     },
-    "Copier la clé publique": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Copy public key"
+    "Démarrer le tunnel" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start tunnel"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Copiar clave pública"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar túnel"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Copia chiave pubblica"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avvia tunnel"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Copiar chave pública"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar túnel"
           }
         }
       }
     },
-    "Clé publique à installer sur le serveur": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Public key to install on the server"
+    "Destination (vue depuis le serveur)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destination (as seen from the server)"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Clave pública para instalar en el servidor"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destino (visto desde el servidor)"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Chiave pubblica da installare sul server"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destinazione (vista dal server)"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Chave pública para instalar no servidor"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destino (visto a partir do servidor)"
           }
         }
       }
     },
-    "Jump host (ProxyJump)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jump host (ProxyJump)"
+    "Dossier vide" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empty folder"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jump host (ProxyJump)"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carpeta vacía"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jump host (ProxyJump)"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cartella vuota"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jump host (ProxyJump)"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta vazia"
           }
         }
       }
     },
-    "Passer par un rebond SSH": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Connect through an SSH jump host"
+    "Écoute locale" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Local listener"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Conectar a través de un salto SSH"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escucha local"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Connetti tramite un jump host SSH"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ascolto locale"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ligar através de um jump host SSH"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escuta local"
           }
         }
       }
     },
-    "Hôte ou IP du rebond": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jump host or IP"
+    "Enregistrer" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Salto: host o IP"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardar"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jump host o IP"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jump host ou IP"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardar"
           }
         }
       }
+    },
+    "Enregistrez des commandes réutilisables, synchronisées via iCloud." : {
+
     },
-    "Secret du rebond": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jump host secret"
+    "Envoyer un fichier" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload a file"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Secreto del salto"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subir un archivo"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Segreto del jump host"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carica un file"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Segredo do jump host"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviar um ficheiro"
           }
         }
       }
     },
-    "Phrase de passe (si chiffrée)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Passphrase (if encrypted)"
+    "Erreur" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Frase de contraseña (si está cifrada)"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Passphrase (se cifrata)"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Errore"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Frase-passe (se cifrada)"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erro"
           }
         }
       }
     },
-    "Clé hôte connue (TOFU)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Known host key (TOFU)"
+    "Fermer" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Clave de host conocida (TOFU)"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Chiave host nota (TOFU)"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiudi"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Chave de anfitrião conhecida (TOFU)"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fechar"
           }
         }
       }
     },
-    "Réinitialiser la clé hôte connue": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reset known host key"
+    "Fichiers" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Files"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restablecer clave de host conocida"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archivos"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reimposta chiave host nota"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "File"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Repor chave de anfitrião conhecida"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ficheiros"
           }
         }
       }
     },
-    "Terminal": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terminal"
+    "Générer une clé Ed25519" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generate an Ed25519 key"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terminal"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Generar una clave Ed25519"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terminale"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genera una chiave Ed25519"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terminal"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gerar uma chave Ed25519"
           }
         }
       }
     },
-    "Fermer": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Close"
+    "Hôte distant" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remote host"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cerrar"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Host remoto"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Chiudi"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Host remoto"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fechar"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anfitrião remoto"
           }
         }
       }
     },
-    "Nouvel onglet": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New tab"
+    "Hôte ou IP" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Host or IP"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nueva pestaña"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Host o IP"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nuova scheda"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Host o IP"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Novo separador"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anfitrião ou IP"
           }
         }
       }
     },
-    "Nouvelle session": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New session"
+    "Hôte ou IP du rebond" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jump host or IP"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nueva sesión"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salto: host o IP"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nuova sessione"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jump host o IP"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nova sessão"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jump host ou IP"
           }
         }
       }
     },
-    "Thème": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Theme"
+    "Journaux" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logs"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tema"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Registros"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tema"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tema"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Registos"
           }
         }
       }
     },
-    "Thème du terminal": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terminal theme"
+    "Jump host (ProxyJump)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jump host (ProxyJump)"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tema del terminal"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jump host (ProxyJump)"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tema del terminale"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jump host (ProxyJump)"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tema do terminal"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jump host (ProxyJump)"
           }
         }
       }
     },
-    "Connexion SFTP…": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Connecting (SFTP)…"
+    "Les sessions terminal et SFTP apparaîtront ici." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminal and SFTP sessions will appear here."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Conectando (SFTP)…"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las sesiones de terminal y SFTP aparecerán aquí."
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Connessione (SFTP)…"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le sessioni terminale e SFTP appariranno qui."
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A ligar (SFTP)…"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "As sessões de terminal e SFTP aparecerão aqui."
           }
         }
       }
     },
-    "Connexion impossible": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Connection failed"
+    "Libellé (optionnel)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Label (optional)"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No se pudo conectar"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etiqueta (opcional)"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Connessione non riuscita"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etichetta (facoltativa)"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ligação falhou"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Etiqueta (opcional)"
           }
         }
       }
     },
-    "Dossier vide": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Empty folder"
+    "Méthode" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Method"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Carpeta vacía"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Método"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cartella vuota"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metodo"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pasta vazia"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Método"
           }
         }
       }
     },
-    "Envoyer un fichier": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Upload a file"
+    "Mode octal" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Octal mode"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Subir un archivo"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo octal"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Carica un file"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modalità ottale"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Enviar um ficheiro"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo octal"
           }
         }
       }
     },
-    "Nouveau dossier": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "New folder"
+    "Modifier" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nueva carpeta"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editar"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nuova cartella"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifica"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nova pasta"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editar"
           }
         }
       }
     },
-    "Créer": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Create"
+    "Modifier le profil" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit profile"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Crear"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editar perfil"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Crea"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifica profilo"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Criar"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Editar perfil"
           }
         }
       }
     },
-    "Nom": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Name"
+    "Mot de passe" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nombre"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contraseña"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nome"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nome"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palavra-passe"
           }
         }
       }
     },
-    "Permissions": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Permissions"
+    "Nom" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Permisos"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Permessi"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nome"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Permissões"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nome"
           }
         }
       }
     },
-    "Mode octal": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Octal mode"
+    "Nouveau dossier" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New folder"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Modo octal"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva carpeta"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Modalità ottale"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuova cartella"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Modo octal"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nova pasta"
           }
         }
       }
     },
-    "Préréglages": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Presets"
+    "Nouveau profil" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New profile"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Preajustes"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuevo perfil"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Preimpostazioni"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuovo profilo"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Predefinições"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novo perfil"
           }
         }
       }
     },
-    "Appliquer": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Apply"
+    "Nouvel onglet" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New tab"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aplicar"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva pestaña"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Applica"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuova scheda"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aplicar"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novo separador"
           }
         }
       }
     },
-    "Aucun journal": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No logs"
+    "Nouvelle session" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New session"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sin registros"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nueva sesión"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nessun log"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuova sessione"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sem registos"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nova sessão"
           }
         }
       }
     },
-    "Tout effacer": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Clear all"
+    "Offrir un pourboire" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leave a tip"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Borrar todo"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dejar una propina"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cancella tutto"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lascia una mancia"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Limpar tudo"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deixar uma gorjeta"
           }
         }
       }
     },
-    "Les sessions terminal et SFTP apparaîtront ici.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terminal and SFTP sessions will appear here."
+    "OK" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Las sesiones de terminal y SFTP aparecerán aquí."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Le sessioni terminale e SFTP appariranno qui."
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "As sessões de terminal e SFTP aparecerão aqui."
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         }
       }
     },
-    "Démarrer le tunnel": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Start tunnel"
+    "Passer par un rebond SSH" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect through an SSH jump host"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Iniciar túnel"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectar a través de un salto SSH"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avvia tunnel"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connetti tramite un jump host SSH"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Iniciar túnel"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ligar através de um jump host SSH"
           }
         }
       }
     },
-    "Arrêter": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Stop"
+    "Permissions" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permissions"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Detener"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permisos"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ferma"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permessi"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parar"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permissões"
           }
         }
       }
     },
-    "Réessayer": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Retry"
+    "Phrase de passe (si chiffrée)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passphrase (if encrypted)"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reintentar"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frase de contraseña (si está cifrada)"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Riprova"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passphrase (se cifrata)"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tentar novamente"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frase-passe (se cifrada)"
           }
         }
       }
     },
-    "Connexion…": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Connecting…"
+    "Port" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Port"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Conectando…"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puerto"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Connessione…"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porta"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A ligar…"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porta"
           }
         }
       }
     },
-    "Destination (vue depuis le serveur)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Destination (as seen from the server)"
+    "Port distant" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remote port"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Destino (visto desde el servidor)"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puerto remoto"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Destinazione (vista dal server)"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porta remota"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Destino (visto a partir do servidor)"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porta remota"
           }
         }
       }
     },
-    "Écoute locale": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Local listener"
+    "Port local (0 = auto)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Local port (0 = auto)"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Escucha local"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puerto local (0 = automático)"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ascolto locale"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porta locale (0 = auto)"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Escuta local"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porta local (0 = automático)"
           }
         }
       }
     },
-    "Hôte distant": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Remote host"
+    "Préréglages" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Presets"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Host remoto"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preajustes"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Host remoto"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preimpostazioni"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Anfitrião remoto"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Predefinições"
           }
         }
       }
     },
-    "Port distant": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Remote port"
+    "Prêt à commencer" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ready to start"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Puerto remoto"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listo para empezar"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Porta remota"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pronto per iniziare"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Porta remota"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pronto para começar"
           }
         }
       }
     },
-    "Port local (0 = auto)": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Local port (0 = auto)"
+    "Réessayer" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retry"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Puerto local (0 = automático)"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reintentar"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Porta locale (0 = auto)"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riprova"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Porta local (0 = automático)"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tentar novamente"
           }
         }
       }
     },
-    "Aucun secret enregistré pour ce profil.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No secret saved for this profile."
+    "Réinitialiser la clé hôte connue" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset known host key"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "No hay secreto guardado para este perfil."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restablecer clave de host conocida"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nessun segreto salvato per questo profilo."
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reimposta chiave host nota"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nenhum segredo guardado para este perfil."
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repor chave de anfitrião conhecida"
           }
         }
       }
     },
-    "Bienvenue dans MaxiTerm": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Welcome to MaxiTerm"
+    "Secret du rebond" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jump host secret"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bienvenido a MaxiTerm"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Secreto del salto"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Benvenuto in MaxiTerm"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Segreto del jump host"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bem-vindo ao MaxiTerm"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Segredo do jump host"
           }
         }
       }
     },
-    "100% gratuit, sans paywall": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "100% free, no paywall"
+    "Sécurisé et auditable" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Secure and auditable"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "100% gratis, sin muro de pago"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seguro y auditable"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "100% gratuito, senza paywall"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sicuro e verificabile"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "100% grátis, sem paywall"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seguro e auditável"
           }
         }
       }
     },
-    "Sécurisé et auditable": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Secure and auditable"
+    "Serveur" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seguro y auditable"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Servidor"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sicuro e verificabile"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seguro e auditável"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Servidor"
           }
         }
       }
     },
-    "Prêt à commencer": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ready to start"
+    "Soutenir" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Listo para empezar"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apoyar"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pronto per iniziare"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sostieni"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pronto para começar"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apoiar"
           }
         }
       }
     },
-    "Continuer": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Continue"
+    "Supprimer" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Continuar"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Continua"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Continuar"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar"
           }
         }
       }
     },
-    "Commencer": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Get started"
+    "Terminal" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminal"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Empezar"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminal"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Inizia"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminale"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Começar"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminal"
           }
         }
       }
     },
-    "Soutenir": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Support"
+    "Thème" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theme"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Apoyar"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sostieni"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Apoiar"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema"
           }
         }
       }
     },
-    "Offrir un pourboire": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Leave a tip"
+    "Thème du terminal" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terminal theme"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dejar una propina"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema del terminal"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lascia una mancia"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema del terminale"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Deixar uma gorjeta"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema do terminal"
           }
         }
       }
     },
-    "Chargement…": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Loading…"
+    "Tout effacer" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear all"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cargando…"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar todo"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Caricamento…"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella tutto"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A carregar…"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limpar tudo"
+          }
+        }
+      }
+    },
+    "Trafic local → %@:%@ via %@." : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Trafic local → %1$@:%2$@ via %3$@."
           }
         }
       }
     },
-    "100% gratuit, sans abonnement": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "100% free, no subscription"
+    "Tunnel" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunnel"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "100% gratis, sin suscripción"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Túnel"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "100% gratuito, senza abbonamento"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunnel"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "100% grátis, sem subscrição"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Túnel"
           }
         }
       }
     },
-    "Avec plaisir": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "You're welcome"
+    "Utilisateur" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "User"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "De nada"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuario"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Con piacere"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utente"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "De nada"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilizador"
           }
         }
       }
     },
-    "Votre soutien fait la différence.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your support makes a difference."
+    "Votre soutien fait la différence." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your support makes a difference."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tu apoyo marca la diferencia."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu apoyo marca la diferencia."
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Il tuo sostegno fa la differenza."
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il tuo sostegno fa la differenza."
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "O seu apoio faz a diferença."
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O seu apoio faz a diferença."
           }
         }
       }
     }
-  }
+  },
+  "version" : "1.0"
 }
